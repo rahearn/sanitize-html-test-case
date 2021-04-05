@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Running the app
 
-Things you may want to cover:
+* bundle install
+* rails server
+* Navigate to http://localhost:3000
 
-* Ruby version
+The main branch will exhibit the error as seen here: https://github.com/apostrophecms/sanitize-html/issues/420
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The `sanitize-1x` branch will properly render "Hello **Sanitize HTML**"
